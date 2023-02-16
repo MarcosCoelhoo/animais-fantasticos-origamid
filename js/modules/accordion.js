@@ -17,5 +17,3 @@ export default function initAccordion() {
     });
   }
 }
-
-console.log("chupa minha caceta");
