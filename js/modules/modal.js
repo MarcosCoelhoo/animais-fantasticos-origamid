@@ -10,7 +10,7 @@ export default class initModal {
     this.cliqueForaModal = this.cliqueForaModal.bind(this);
   }
 
-  // adciona ou não a classe ao modal
+  // abre ou fecha o modal modal
   toggleModal() {
     this.containerModal.classList.toggle("ativo");
   }
