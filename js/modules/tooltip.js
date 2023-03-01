@@ -16,7 +16,6 @@ export default class Tooltip {
     } else {
       this.tooltipBox.style.left = `${event.pageX + 20}px`;
     }
-    console.log(event.pageX + 240, window.innerWidth);
   }
 
   onMouseLeave({ currentTarget }) {
@@ -33,7 +32,6 @@ export default class Tooltip {
     tooltipBox.innerText = text;
     document.body.appendChild(tooltipBox);
     this.tooltipBox = tooltipBox;
-    console.log(tooltipBox);
   }
 
   // cria a tooltip e adciona os eventos
